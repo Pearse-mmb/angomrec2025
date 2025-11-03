@@ -50,7 +50,7 @@ export default function App() {
         label: 'Pay via WhatsApp',
         onClick: () => {
           const message = `Hello, I just registered for ANGOMREC 10th Anniversary.%0A%0AName: ${fullName}%0AEmail: ${data.email}%0APhone: ${data.phone}%0ASpecialty: ${data.specialty}%0A%0AI would like to complete my payment of ₦5,000.`;
-          window.open(`https://wa.me/+2348023348579?text=${message}`, '_blank');
+          window.open(`https://wa.me/+2348023248579?text=${message}`, '_blank');
         },
       },
     });
@@ -277,10 +277,10 @@ export default function App() {
     { name: "Pastor Wole Oladiyun", img: "/wole.jpeg", role: "Facilitator" },
     { name: "Pastor Joseph Ayewa", img: "/ayewa.jpeg", role: "Facilitator" },
     { name: "Timi Orokoya Telemi", img: "/timi.jpg", role: "Convener" },
-    { name: "Tosin Alao", img: "/tosinnew.jpeg", role: "Music Minister" },
+    { name: "Tosin Alao", img: "/tosinnew.jpeg", role: "Facilitator" },
     { name: "Ayo Ajewole", img: "/woli.jpeg", role: "Facilitator" },
     { name: "Mike Abdul", img: "/mike.jpeg", role: "Facilitator" },
-    { name: "Tope Olukole", img: "/olukole.jpg", role: "Music Minister" },
+    { name: "Tope Olukole", img: "/olukole.jpg", role: "Conference Chairman " },
     { name: "Psalmist Isreal", img: "/psal.jpg", role: "Program Director" },
     { name: "Bunmi Leranmo", img: "/bu.jpg", role: "Welfare Director" },
     { name: "Bunmi Adegbite", img: "/adeg.jpg", role: "Conference Register" },
@@ -402,7 +402,7 @@ export default function App() {
     <div className="border-t border-amber-700 pt-6 mt-10 text-center text-amber-100">
       <p>© 2025 ANGOMREC. All rights reserved. Celebrating 10 years of gospel music excellence.</p>
       <p className="text-sm text-amber-300 mt-2">
-        Website developed by <strong>Pearse Boluwatife , handle: +234-9069107129, 
+        Website developed by <strong>Pearse Boluwatife handle: +234-9069107129, 
         +234-9035133943</strong>
       </p>
     </div>

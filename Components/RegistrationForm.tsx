@@ -27,7 +27,7 @@ export interface RegistrationData {
 const PAYMENT_RECIPIENT_NAME = "Telemi Gospel Music";
 const PAYMENT_ACCOUNT_NUMBER = "2003583162";
 const PAYMENT_BANK_NAME = "First Bank";
-const WHATSAPP_NUMBER = "2348023348579";
+const WHATSAPP_NUMBER = "2348023248579";
 
 
 export function RegistrationForm({ onSubmit }: RegistrationFormProps) {
